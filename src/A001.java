@@ -10,5 +10,6 @@ public class A001 {
 			String str = sc.next();
 			System.out.println("hello, "+ str);
 		}
+		sc.close();
 	}
 }
