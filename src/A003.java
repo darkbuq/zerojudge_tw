@@ -12,7 +12,15 @@ public class A003 {
 			String[] gg = str.split(" ");
 			
 			int i = ( Integer.parseInt(gg[0])*2 + Integer.parseInt(gg[1]) )%3;
-			System.out.println(i);
+			//System.out.println(i);
+			
+			if (i==0) {
+				System.out.println("´¶³q");
+			} else if (i==1) {
+				System.out.println("¦N");
+			} else {
+				System.out.println("¤j¦N");
+			}
 		}
 		sc.close();
 	}
