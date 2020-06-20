@@ -1,1 +1,1 @@
-# zerojudge_tw
+# https://zerojudge.tw/
