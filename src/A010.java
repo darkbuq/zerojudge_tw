@@ -17,8 +17,8 @@ public class A010 {
 			int strint = Integer.parseInt(str);//字串轉整數
 			//System.out.println("strint: "+strint);
 			
-			List listt = new ArrayList();
-			List listunique = new ArrayList();
+			List listt = new ArrayList(); //做一個 因子列
+			List listunique = new ArrayList(); //做一個 因子列 的惟一列
 			
 			while (true) {
 				int g=0;
