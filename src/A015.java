@@ -15,7 +15,7 @@ public class A015 {
 			int[] i=new int[row*col];
 			//System.out.println(i.length);
 			
-			//¥¿±`ªº¯x°}
+			//æ­£å¸¸çš„çŸ©é™£
 			for(int j=0;j<i.length;j++)  i[j]=sc.nextInt();
 			
 			for (int k=0; k<col; k++) {

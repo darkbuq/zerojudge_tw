@@ -14,11 +14,11 @@ public class A010 {
 		while (sc.hasNext()) {
 			str = sc.nextLine();
 			
-			int strint = Integer.parseInt(str);//¦r¦êÂà¾ã¼Æ
+			int strint = Integer.parseInt(str);//å­—ä¸²è½‰æ•´æ•¸
 			//System.out.println("strint: "+strint);
 			
-			List listt = new ArrayList(); //°µ¤@­Ó ¦]¤l¦C
-			List listunique = new ArrayList(); //°µ¤@­Ó ¦]¤l¦C ªº±©¤@¦C
+			List listt = new ArrayList(); //åšä¸€å€‹ å› å­åˆ—
+			List listunique = new ArrayList(); //åšä¸€å€‹ å› å­åˆ— çš„æƒŸä¸€åˆ—
 			
 			while (true) {
 				int g=0;
@@ -42,7 +42,7 @@ public class A010 {
 					if (strint % j == 0 & j!=1) {
 						listt.add(new Integer(j));
 						strint = strint/j;
-						//System.out.println("¦]¤l= "+j);
+						//System.out.println("å› å­= "+j);
 						//System.out.println("strint= "+strint);
 						
 						if(!listunique.contains(j))  listunique.add(new Integer(j));
@@ -56,7 +56,7 @@ public class A010 {
 			
 			/*
 			System.out.println( listunique.get(1) );
-			//­pºâList¤¤¬Y­Ó¤¸¯À¥X²{ªº¦¸¼Æ
+			//è¨ˆç®—Listä¸­æŸå€‹å…ƒç´ å‡ºç¾çš„æ¬¡æ•¸
 			System.out.println(Collections.frequency(listt, listunique.get(1)));
 			*/
 			

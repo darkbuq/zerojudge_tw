@@ -18,14 +18,14 @@ public class A013 {
 			if (str.equals("#")) break;
 			//strlist.add(str);
 			
-			String[] gg = str.split(" "); //³Q´î¼Æ  ´î¼Æ ¤ÀÂ÷
+			String[] gg = str.split(" "); //è¢«æ¸›æ•¸  æ¸›æ•¸ åˆ†é›¢
 			
 			int ans_int = Math.abs(romanNum_to_int(gg[0])-romanNum_to_int(gg[1]));
 			
 			if (ans_int==0) {
 				System.out.println("ZERO");
 			} else if (ans_int<0) {
-				System.out.println("´î§¹¬°­t¼Æ");
+				System.out.println("æ¸›å®Œç‚ºè² æ•¸");
 			} else {
 				System.out.println(int_to_romanNum(ans_int));				
 			}			
@@ -33,10 +33,10 @@ public class A013 {
 		sc.close();
 	}
 	
-	//Ã¹°¨¼Æ¦r  Âà  ¼Æ¦r
+	//ç¾…é¦¬æ•¸å­—  è½‰  æ•¸å­—
 	static int romanNum_to_int (String a) {
 		//System.out.println(a);
-		a=a+"@"; //¦h¸É­Ó¦r¤¸  ¦]¬°¤U­±ªº if§PÂ_¦³®É»Ý­n¨â®æ
+		a=a+"@"; //å¤šè£œå€‹å­—å…ƒ  å› ç‚ºä¸‹é¢çš„ ifåˆ¤æ–·æœ‰æ™‚éœ€è¦å…©æ ¼
 		int num=0;
 				
 		char[] ch = a.toCharArray(); 
@@ -90,7 +90,7 @@ public class A013 {
 			}	
 			//System.out.println(Arrays.toString(ch));
 		}
-		//System.out.println("Âà¼Æ¦rµ²ªG: "+num);
+		//System.out.println("è½‰æ•¸å­—çµæžœ: "+num);
 		return num;
 	}
 	
