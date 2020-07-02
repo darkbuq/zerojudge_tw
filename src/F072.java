@@ -26,11 +26,11 @@ public class F072 {
 					numstr = numstr + i;
 				}	
 			}
-			System.out.println("去頭結果  "+numstr);
+			//System.out.println("去頭結果  "+numstr);
 			
 			//去尾
 			String[] arr2 = numstr.split("");
-			System.out.println(Arrays.toString(arr2));
+			//System.out.println(Arrays.toString(arr2));
 			
 			String numstr2="";
 			gg=0;
@@ -46,12 +46,12 @@ public class F072 {
 					numstr2 = numstr2 + arr2[i];
 				}
 			}
-			System.out.println("去尾結果  "+numstr2);
+			//System.out.println("去尾結果  "+numstr2);
 			
 			//計算
 			String[] arr3 = numstr2.split("1");
-			System.out.println(Arrays.toString(arr3));
-			System.out.println("length: "+arr3.length);
+			//System.out.println(Arrays.toString(arr3));
+			//System.out.println("length: "+arr3.length);
 			
 			int summ=0;
 			for (String i:arr3) {
@@ -69,8 +69,8 @@ public class F072 {
 				
 				summ = summ+ff;
 			}
-			System.out.println("ans: "+summ);
-			
+			//System.out.println("ans: "+summ);
+			System.out.println(summ);
 			
 		}
 	}
